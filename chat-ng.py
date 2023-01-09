@@ -30,7 +30,7 @@ def ask_chatng(prompt):
 	# Set the model
 	model = "text-davinci-003"
 
-	# Make the request to the ChatGPT API
+	# Make the request to the text-davinci-003 API, because it doesn't use ChatGPT
 	response = openai.Completion.create(engine=model, \
 		prompt=prompt, max_tokens=1024, temperature=0.5, \
 		top_p=1, frequency_penalty=0, presence_penalty=0)
