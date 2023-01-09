@@ -1,5 +1,5 @@
 # chat-ng
-Wrapper for OpenAI text-davinci-003
+Wrapper for OpenAI text-davinci-003. I know the picture and code says "chatgpt" but no this code does not use ChatGPT. It uses text-davinci-003. Don't be pedantic. Thank you.
 
 # WARNING!
 
