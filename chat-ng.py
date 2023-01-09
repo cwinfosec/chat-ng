@@ -26,7 +26,7 @@ ____ _  _ ____ ___    _  _ ____
 			   v1.0
 	""")
 
-def ask_chatgpt(prompt):
+def ask_chatng(prompt):
 	# Set the model
 	model = "text-davinci-003"
 
@@ -38,7 +38,7 @@ def ask_chatgpt(prompt):
 	# Construct the response
 	response_text = response['choices'][0]['text']
 	output = f"\n"
-	output += f"{Fore.GREEN}ChatGPT>{Fore.WHITE}{response_text}"
+	output += f"{Fore.GREEN}Chat-ng>{Fore.WHITE}{response_text}"
 	output += f"\n"
 
 	return output
@@ -79,7 +79,7 @@ def main():
 				command()
 
 			else:
-				answer = ask_chatgpt(prompt)
+				answer = ask_chatng(prompt)
 				print(answer)
 
 		except Exception as e:
