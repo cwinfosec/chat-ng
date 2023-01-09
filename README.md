@@ -9,6 +9,4 @@ Running this script will incur usage costs through OpenAI's API service. This sc
 
 # Example
 
-The screenshot below is incomplete and is missing the "exit" command in the help menu. 
-
 ![](/chat-ng.PNG)
