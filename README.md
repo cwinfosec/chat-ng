@@ -10,3 +10,10 @@ Running this script will incur usage costs through OpenAI's API service. This sc
 # Example
 
 ![](/chat-ng.PNG)
+
+# Using libchatng In A Project
+```python
+import libchatng
+
+libchatng.query("your GPT-3 prompt goes here")
+```
