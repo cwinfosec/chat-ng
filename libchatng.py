@@ -24,7 +24,7 @@ def ask_chatng(prompt):
 	# Construct the response
 	output = response['choices'][0]['text']
 
-	return output
+	return output[2:]
 
 def query(prompt):
 	try:
