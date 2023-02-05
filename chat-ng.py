@@ -35,6 +35,11 @@ def ask_chatng(prompt):
 		prompt=prompt, max_tokens=1024, temperature=0.5, \
 		top_p=1, frequency_penalty=0, presence_penalty=0)
 
+	# Get tokens and cost for the prompt
+        tokens = response['usage']['total_tokens']
+        print(f"Tokens: {tokens}")
+        print(f"Cost: {(tokens / 1000) * 0.02}")
+	
 	# Construct the response
 	response_text = response['choices'][0]['text']
 	output = f"\n"
