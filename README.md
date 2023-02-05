@@ -5,7 +5,7 @@ It requires an API key.
 
 # COST WARNING!
 
-Running this script will incur usage costs through OpenAI's API service. This script does not run for free.
+Running this script will incur usage costs through OpenAI's API service. This script does not run for free. Usage costs are displayed after every prompt.
 
 # Example
 
