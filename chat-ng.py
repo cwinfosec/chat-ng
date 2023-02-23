@@ -12,7 +12,8 @@ colorama.init(autoreset=True)
 # API KEY GOES HERE
 ######################
 
-openai.api_key = ""
+#openai.api_key = "YOUR_KEY_HERE_BUT_THIS_IS_UNSAFE"
+openai.api_key = os.environ['OPENAI_API_KEY']
 
 ######################
 # API KEY GOES ABOVE
