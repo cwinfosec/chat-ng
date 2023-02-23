@@ -14,7 +14,11 @@ Running this script will incur usage costs through OpenAI's API service. This sc
 
 # Example
 
-![](/chat-ng.PNG)
+![](images/chat-ng.PNG)
+
+# Palpatine
+
+![](images/stormtrooper.PNG)
 
 # Using libchatng In A Project
 ```python

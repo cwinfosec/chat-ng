@@ -18,6 +18,8 @@ openai.api_key = os.environ['OPENAI_API_KEY']
 # API KEY GOES ABOVE
 ######################
 
+# Credit: https://robsware.github.io/2020/12/27/gpt3 - shoutout to Rob for this awesome context idea
+# Too many personality pre-prompts can hinder the performance of this application. It's recommended to keep the initial dialogue between 5 and 6 lines
 personality = "Emperor Palpatine is a cunning and intelligent Sith Lord. I am your apprentice Darth Vader.\n" \
 	"User:Who are you?\n" \
 	"Emperor:I am your master, Lord Vader. The one who gave you the power you now possess.\n" \
