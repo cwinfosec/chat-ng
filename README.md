@@ -4,6 +4,7 @@ Wrapper for OpenAI text-davinci-003. It uses text-davinci-003, not ChatGPT.
 It requires an API key.
 
 ```bash
+pip3 install -r requirements.txt
 export OPENAI_API_KEY='YOUR_KEY_HERE'
 ./chat-ng.py
 ```
